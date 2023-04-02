@@ -1,4 +1,4 @@
-# 4x4x4_Hacklahoma2023
+# 4x4x4_Hacklahoma2023 - Hyperdrive: Dijkstra's Algorithm
 Team 4x4x4 - Hacklahoma 2023 Project
 
 ## Inspiration
