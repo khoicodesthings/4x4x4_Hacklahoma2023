@@ -198,7 +198,7 @@ def dijkstra_algorithm(graph, start_node):
       tentative_value = shortest_path[current_min_node] + graph.value(
         current_min_node, neighbor)
       
-      print(neighbor, 'has tentative value: ', tentative_value, ". We compare this to: ",
+      print(neighbor, 'has tentative value:', tentative_value, ". We compare this to:",
             shortest_path[neighbor])
 
       if tentative_value < shortest_path[neighbor]:
