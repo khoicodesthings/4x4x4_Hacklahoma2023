@@ -35,7 +35,7 @@ nx.draw(G,
         node_color='gray',
         alpha=0.9,
         font_color="yellow",
-        font_size=10,
+        font_size=9,
         labels={node: node
                 for node in G.nodes()})
 
@@ -171,7 +171,7 @@ def dijkstra_algorithm(graph, start_node):
       node_color=color_map,
       alpha=0.9,
       font_color="yellow",
-      font_size=10,
+      font_size=9,
       labels = node_values)
 
     nx.draw_networkx_edge_labels(G,
@@ -234,7 +234,7 @@ def dijkstra_algorithm(graph, start_node):
         node_color=color_map,
         alpha=0.9,
         font_color="yellow",
-        font_size=10,
+        font_size=9,
             labels = node_values)
             #labels={node: node
                   # for node in G.nodes()})
